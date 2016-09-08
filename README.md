@@ -4,6 +4,9 @@ A test case for mapbox gl.
 ## problem
 `mapbox-gl` does not the free memory when call `map.removeSource` or `map.removeLayer` or `GeoJSONSource#setData`，after a long time call `GeoJSONSource#setData`，the memory woule be in heavily used.
 
+## online
+[online demo](http://wandergis.com/memory-leak-test-case/)
+
 ## screenshot
 
 1. before
